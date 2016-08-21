@@ -1,0 +1,28 @@
+# Eclipse
+.classpath
+.project
+.settings/
+workspace/
+
+# Intellij
+.idea/
+*.iml
+*.iws
+
+# Mac
+.DS_Store
+
+# Maven
+log/
+target/
+
+# data output
+*.csv
+*.ods
+results 1/
+
+# BWAPI not needed
+ExampleBot.jar
+bin/
+lib/
+mapData/
