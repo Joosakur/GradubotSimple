@@ -63,7 +63,7 @@ public abstract class AbstractBuildOptimizer<NODE extends Node> {
         } catch (IllegalAccessException e) {
             e.printStackTrace();
         }
-        root.state = new State(0, 0, 0, 8, 20, 4, 0);
+        root.state = new State(0, 50, 0, 8, 20, 4, 0);
         root.state.ownedBuildings.put(UnitType.UnitTypes.Terran_Command_Center, new Buildings(1, 1));
         root.state.ownedTroops.put(UnitType.UnitTypes.Terran_SCV, 4);
 

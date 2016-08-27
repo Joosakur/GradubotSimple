@@ -137,7 +137,8 @@ public class State {
     public int timeWhenEnoughResources(UnitType typeToProduce) {
         int mineralsNeeded = typeToProduce.getMineralPrice();
         int gasNeeded = typeToProduce.getGasPrice();
-        if(mineralsNeeded <= minerals && gasNeeded <= gas) return currentTime;
+        if(mineralsNeeded <= minerals && gasNeeded <= gas)
+            return currentTime;
 
         int tempMinerals = minerals;
         int tempGas = gas;
